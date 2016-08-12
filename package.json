@@ -1,0 +1,25 @@
+{
+  "name": "cbodies-mgmt",
+  "version": "1.0.0",
+  "description": "cbodies droplets management",
+  "main": "servermgmt.js",
+  "scripts": {
+    "start": "node servermgmt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "gerardcl@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "shelljs": "^0.7.0"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}
